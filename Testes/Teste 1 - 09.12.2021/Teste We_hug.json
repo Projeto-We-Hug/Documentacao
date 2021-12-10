@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "11570f60-fceb-4ec9-a4c4-408a10566eb8",
+		"name": "We_Hug",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Metodo get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/tema",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tema"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8080/tema",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tema"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
